@@ -16,9 +16,9 @@ async function getData() {
 
       console.log(`${title} - ${rating}\n`);
 
-      fs.appendFile("list.txt", `${title} - ${rating}\n`, (err) => {
-        return err;
-      });
+      // fs.appendFile("list.txt", `${title} - ${rating}\n`, (err) => {
+      //   return err;
+      // });
     });
   });
 }
